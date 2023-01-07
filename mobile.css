@@ -106,7 +106,7 @@ p {
     transform: translateY(140%);
 }
 
-@media (width <= 770px) {
+@media only screen and (max-width: 770px) {
     .content1 .first-col {
         flex-basis: 100%;
     }
@@ -142,7 +142,7 @@ p {
         transform: translateY(40%);
     }
 }
-@media (width <= 990px) {
+@media only screen and (max-width: 990px) {
     #first-part .container {
         height: 70vh;
     }
